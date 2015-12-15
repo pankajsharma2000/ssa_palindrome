@@ -1,0 +1,31 @@
+{
+  "name": "ssa_palindrome",
+  "version": "1.0.0",
+  "description": "The simplest palindrome you could find.",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test; node_modules/mocha/bin/mocha ./tests/index-test.js",
+    "start": "NODE_ENV=dev; node ."
+  },
+  "dependencies": {
+    "is-palindrome": "0.3.0",
+    "istanbul": "^0.3.15"
+  },
+  "devDependencies": {
+    "mocha": "1.21.4",
+    "should": "4.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pankajsharma2000/ssa_palindrome.git"
+  },
+  "keywords": [
+    "palindrome"
+  ],
+  "author": "Pankaj Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pankajsharma2000/ssa_palindrome/issues"
+  },
+  "homepage": "https://github.com/pankajsharma2000/ssa_palindrome#readme"
+}
